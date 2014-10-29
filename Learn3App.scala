@@ -1,10 +1,13 @@
 
 
-class StrategyApp {
+/**
+ * An example strategy in Scala
+ */
+
+class Learn3App {
 }
 
-
-object StrategyApp extends StrategyApp {
+object Learn3App extends Learn3App {
   type Strategy = (Int, Int) => Int
 
   val add: Strategy       = _ + _
