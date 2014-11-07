@@ -15,6 +15,9 @@ object Learn6App extends Learn6App {
   // Try permits recovery from exceptions at any point in the chain
   // Recover can be used on each execution line, or defer recovery to the end of the comprehension
   def main(args: Array[String]) {
+
+  	// In cases 1 and 2, recover will permit the exception to be recovered and therefore returns Success
+  	// In case 3, the Try will return Failure
   	println(s"Calling exec1: $exec1")
   	println(s"Calling exec2: $exec2")
   	println(s"Calling exec3: $exec3")
